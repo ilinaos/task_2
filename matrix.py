@@ -28,7 +28,7 @@ try:
     for row in range(0,start):
         for column in range (0,start):
             print (f'{matrix[row][column]:<3} ', end='')
-        print('\n')
+        print()
 except ValueError:
     print ('Неверное значение, нужно целое число')
 except IndexError:
