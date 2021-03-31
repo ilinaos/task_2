@@ -1,6 +1,6 @@
 try:
-    n=int(input())
-    print('\n\n')
+    n=int(input('Для какого числа крутим спираль?\n'))
+    print()
     num=1
     i,j=0,0
     start=n
